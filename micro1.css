@@ -1,3 +1,154 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+main{
+    background-color: #FFCD9E;
+    display:flex;
+    height: 70vh;
+}
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #282828;
+    height:30vh;
+}
+.container{
+    display:flex;
+    flex-flow: column wrap;
+}
+.heading{
+position: absolute;
+left: 150px;
+top: 70px;
+height: 108px;
+width:562px;
+color: #282828;
+font-family: Inter;
+font-size: 36px;
+font-style: normal;
+font-weight: 700; 
+line-height: 54px;
+}
+div.para1{
+    position: absolute;
+    left: 150px;
+    top: 175px;
+    width: 495px;
+    color: #484848;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+div.para2{
+    position: absolute;
+    left: 150px;
+    top: 280px;
+width: 227px;
+height: 81px;
+color: #282828;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+}
+div>input{
+    position: absolute;
+    left: 150px;
+    top: 365px;
+width: 22vw;
+height: 5vh;
+padding: 1.45rem;
+border-radius: 8px;
+border: 4px solid #000;
+background: #FFF;
+font-size: 20px;
+font-weight: 550;
+
+}
+div>button{
+    position: absolute;
+    left: 514px;
+    top: 365px;
+width: 216px;
+height: 55px;
+color: #FFF;
+border-radius: 8px;
+background-color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+}
+div.para3{
+    position: absolute;
+    left: 150px;
+    top: 420px;
+width: 344px;
+height: 61px;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+}
+div.img{
+    width: 300px;
+    padding-left: 91.87px ;
+    padding-right: 100px;
+    padding-bottom: 66.51px;
+    position: absolute;
+    left: 760px;
+    bottom: 125px;
+}
+.container2{
+display: flex;
+flex-flow: column wrap;
+position: absolute;
+left: 222px;
+top: 555px;
+
+}
+.container2>div{
+color: #ffffff;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+width: 216px;
+height: 30px;
+}
+.container3{
+display: flex;
+flex-flow: column wrap;
+position: absolute;
+left: 1000px;
+top: 555px;
+}
+.container3>div{
+    
+    text-align: right;
+align-items: self-end;
+color: #ffffff;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+width: 216px;
+height: 30px;
+}
+div.hello{
+    position: absolute;
+    top:122px ;
+}
+@media only screen and (max-width:500px){
+    div.img{
+        display:none;
+    }
 main{
     background-color: #FFCD9E;
     display:flex;
@@ -143,4 +294,4 @@ div.hello{
     div.img{
         display:none;
     }
-}
+}}
